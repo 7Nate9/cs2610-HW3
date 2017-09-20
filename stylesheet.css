@@ -12,3 +12,20 @@ table {
     border: 1px solid black;
     border-collapse: collapse;
 }
+.image{
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hidden{
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+#python{
+    background-image: url("snek.png");
+}
+#darkness{
+    background-image: url("black.png");
+    background-size: cover;
+}
