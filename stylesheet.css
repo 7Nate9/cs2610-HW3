@@ -26,6 +26,5 @@ table {
     background-image: url("snek.png");
 }
 #darkness{
-    background-image: url("black.png");
-    background-size: cover;
+    background-color: black;
 }
