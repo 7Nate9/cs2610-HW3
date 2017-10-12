@@ -123,6 +123,8 @@ table {
     border-collapse: collapse;
     margin:.25em;
     background-image:url("background.jpg");
+    width:70%;
+    
 }
 .bgfixed{
     background-attachment: fixed;
@@ -168,4 +170,16 @@ aside{
 }
 article img{
     margin-right:.5em;
+}
+#git{
+    order:3;
+}
+#html{
+    order:1;
+}
+#css{
+    order:2;
+}
+.articleheader{
+    width:100%;
 }
